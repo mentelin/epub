@@ -1,7 +1,7 @@
 (function ($, angular, JSZip) {
   'use strict';
 
-  angular.module('mentelin-epub')
+  angular.module('mentelin-epub', [])
     .factory('Epub', function () {
       return {
         book: {},
